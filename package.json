@@ -1,0 +1,42 @@
+{
+  "name": "wk14-tech-blog",
+  "version": "1.0.0",
+  "description": "22-STU review is a great example of the setup connecting MCV together",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "npx eslint **/*.js",
+    "start": "node server.js",
+    "seed": "node seeds/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrigittePowers/wk14-tech-blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrigittePowers/wk14-tech-blog/issues"
+  },
+  "homepage": "https://github.com/BrigittePowers/wk14-tech-blog#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.1",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "connect-session-sequelize": "^7.1.2",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "express-session": "^1.17.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.8.0"
+  }
+}
