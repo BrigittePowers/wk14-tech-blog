@@ -1,0 +1,31 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Blog</title>
+    <link rel="stylesheet" href="/public/css/main.css" />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <header class="hero">
+        <nav class="navbar">
+          <a class="nav" href="/">Home</a>
+          <!-- href should match routes -->
+          {{#if loggedIn}}
+            <a class="nav" href="/">Logout</a>
+          {{else}}
+            <a class="nav" href="/login">Login</a>
+          {{/if}}
+        </nav>
+        <h1 class="title">THE Tech Blog</h1>
+        <subtitle>The one and only</subtitle>
+      </header>
+    </div>
+
+    <main>
+      {{{body}}}
+    </main>
+  </body>
+</html>
