@@ -6,12 +6,12 @@ const userData = [
 		password: 'Powers',
 	},
 	{
-		username: 'Greg',
-		password: 'Zaragoza',
+		username: 'Tori',
+		password: 'Higgins',
 	},
 	{
-		username: 'Natasha',
-		password: 'Ortiz',
+		username: 'Minnie',
+		password: 'Delgado',
 	},
 ];
 

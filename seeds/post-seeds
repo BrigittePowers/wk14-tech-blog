@@ -1,0 +1,26 @@
+const { Post } = require('../models');
+
+const postData = [
+	{
+		title: 'Tech Stuff with Kitty Ipsum',
+		content:
+			'Cat fur is the new black small kitty warm kitty little balls of fur or dream about hunting birds and mark territory, yet attack feet lick sellotape licks paws. Paw at beetle and eat it before it gets away meow. Purr purr purr until owner pets why owner not pet me hiss scratch meow lasers are tiny mice jump on fridge fight an alligator and win catty ipsum. Murr i hate humans they are so annoying find empty spot in cupboard and sleep all .',
+		user_id: 1,
+	},
+	{
+		title: 'More Tech Stuff',
+		content:
+			'If it fits, i sits find something else more interesting, and dismember a mouse and then regurgitate parts of it on the family room floor. Sleep all day whilst slave is at work, play all night whilst slave is sleeping scratch the box.',
+		user_id: 2,
+	},
+	{
+		title: 'EMBIGGENED TECH STUFF',
+		content:
+			'Snuggles up to shoulders or knees and purrs you to sleep rub face on everything groom forever, stretch tongue and leave it slightly out, blep yet trip owner up in kitchen i want food. Love me! roll on the floor purring your whiskers off.',
+		user_id: 3,
+	},
+];
+
+const seedPosts = () => Post.bulkCreate(postData);
+
+module.exports = seedPosts;
