@@ -103,6 +103,7 @@ p {
 	padding: 3% 4%;
 	background-color: var(--dark);
 	color: var(--primary);
+	margin-bottom: 1%;
 }
 
 .hero p {
