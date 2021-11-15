@@ -2,12 +2,6 @@
 
 ## _ CMS-style blog site similar to a Wordpress site, where developers can publish their blog posts and comment on other developers’ posts as well._
 
-## Description
-
-_What is it and why was it made?_
-
-The goal of the project is to create a back-end in order to connect a MYSQL database to an e-commerce website utilizing dotenv for security, sequelize for database management, and mysql servers.
-
 ![License for GitHub repo](https://img.shields.io/github/license/BrigittePowers/wk14-tech-blogd)
 
 ## Table of Contents
