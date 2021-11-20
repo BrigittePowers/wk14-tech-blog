@@ -24,6 +24,9 @@ _Instructions and/or Examples for utilizing the project:_
 
 Live demo can be viewed at: https://bpowers-wk14-tech-blog.herokuapp.com/
 
+![image](https://user-images.githubusercontent.com/86506686/142737297-8324275d-a2de-44b0-9e68-44df16d55f1a.png)
+
+
 ## Questions
 
 GitHub: [@BrigittePowers](https://api.github.com/users/BrigittePowers)
